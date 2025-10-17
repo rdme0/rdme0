@@ -14,3 +14,14 @@
 | **GPU** | AMD Radeon RX 6800 XT (XFX MERC 319 D6 16GB) |
 | **Storage** | Samsung NVMe PM981a 512GB & PM9a1 1TB |
 | **PSU** | Antec NeoECO 850W 80PLUS GOLD |
+
+## 💾 Nas
+
+| Category | Component |
+| :--- | :--- |
+| **CPU** | Intel Core i7-4770 |
+| **Memory** | 16GB (DDR3 8GB * 2) |
+| **Motherboard**| ASRock B85M Pro4 |
+| **Storage** | SK Hynix Gold P31 512GB & Toshiba P300 2TB |
+| **PSU** | Micronics Classic II 700W |
+| **CPU Cooler** | DeepCool GAMMAX GTE (White) |
