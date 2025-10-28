@@ -11,6 +11,11 @@
       </a>
     </td>
   </tr>
+      <td>
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@rdme0" />
+      </a>
+    </td>
 </table>
 
 
