@@ -1,22 +1,15 @@
-<table align="center">
-  <tr>
-    <td>
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api?username=rdme0&show_icons=true&count_private=true&theme=transparent" />
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rdme0&layout=compact&stats_format=bytes" />
-      </a>
-    </td>
-  </tr>
-      <td>
-      <a href="https://github.com/anuraghazra/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@rdme0&layout=compact" />
-      </a>
-    </td>
-</table>
+<!-- Made with [OSS Insight](https://ossinsight.io/) -->
+<a href="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats?user_id=71927381" target="_blank" style="display: block" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=71927381&image_size=auto&color_scheme=dark" width="771" height="auto">
+    <img alt="Dashboard stats of @rdme0" src="https://next.ossinsight.io/widgets/official/compose-user-dashboard-stats/thumbnail.png?user_id=71927381&image_size=auto&color_scheme=light" width="771" height="auto">
+  </picture>
+</a>
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@rdme0&layout=compact" />
+</a>
+
 
 
 ## 💻 Dev PC
