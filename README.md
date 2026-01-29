@@ -6,10 +6,6 @@
   </picture>
 </a>
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@rdme0&layout=compact" />
-</a>
-
 
 
 ## 💻 Dev PC
