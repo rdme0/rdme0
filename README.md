@@ -10,6 +10,12 @@
 
 ## 💻 Dev PC
 
+
+<img width="738.5" height="800.75" alt="IMG_2906" src="https://github.com/user-attachments/assets/30e9ebc8-0d37-4256-8778-7a83df94280d" />
+
+
+
+
 | Category | Component |
 | :--- | :--- |
 | **CPU** | AMD Ryzen 5 5600 |
