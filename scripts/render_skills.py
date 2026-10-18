@@ -183,7 +183,7 @@ def skills_markdown():
         for slug in slugs:
             result.append(f'''  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/{slug}-glass-dark.png">
-    <img src="assets/skills/{slug}-glass-light.png" width="112" alt="{escape(by_slug[slug])}">
+    <img src="assets/skills/{slug}-glass-light.png" width="56" alt="{escape(by_slug[slug])}">
   </picture>''')
         result.append("</p>")
     return "\n".join(result) + "\n"

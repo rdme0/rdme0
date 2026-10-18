@@ -25,15 +25,15 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/kotlin-glass-dark.png">
-    <img src="assets/skills/kotlin-glass-light.png" width="112" alt="Kotlin">
+    <img src="assets/skills/kotlin-glass-light.png" width="56" alt="Kotlin">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/java-glass-dark.png">
-    <img src="assets/skills/java-glass-light.png" width="112" alt="Java">
+    <img src="assets/skills/java-glass-light.png" width="56" alt="Java">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/go-glass-dark.png">
-    <img src="assets/skills/go-glass-light.png" width="112" alt="Golang">
+    <img src="assets/skills/go-glass-light.png" width="56" alt="Golang">
   </picture>
 </p>
 
@@ -42,19 +42,19 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/python-glass-dark.png">
-    <img src="assets/skills/python-glass-light.png" width="112" alt="Python">
+    <img src="assets/skills/python-glass-light.png" width="56" alt="Python">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/cplusplus-glass-dark.png">
-    <img src="assets/skills/cplusplus-glass-light.png" width="112" alt="C++">
+    <img src="assets/skills/cplusplus-glass-light.png" width="56" alt="C++">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/javascript-glass-dark.png">
-    <img src="assets/skills/javascript-glass-light.png" width="112" alt="JavaScript">
+    <img src="assets/skills/javascript-glass-light.png" width="56" alt="JavaScript">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/typescript-glass-dark.png">
-    <img src="assets/skills/typescript-glass-light.png" width="112" alt="TypeScript">
+    <img src="assets/skills/typescript-glass-light.png" width="56" alt="TypeScript">
   </picture>
 </p>
 
@@ -63,19 +63,19 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/springboot-glass-dark.png">
-    <img src="assets/skills/springboot-glass-light.png" width="112" alt="Spring Boot">
+    <img src="assets/skills/springboot-glass-light.png" width="56" alt="Spring Boot">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/jpa-glass-dark.png">
-    <img src="assets/skills/jpa-glass-light.png" width="112" alt="JPA">
+    <img src="assets/skills/jpa-glass-light.png" width="56" alt="JPA">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/coroutines-glass-dark.png">
-    <img src="assets/skills/coroutines-glass-light.png" width="112" alt="Kotlin Coroutines">
+    <img src="assets/skills/coroutines-glass-light.png" width="56" alt="Kotlin Coroutines">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/gin-glass-dark.png">
-    <img src="assets/skills/gin-glass-light.png" width="112" alt="Gin">
+    <img src="assets/skills/gin-glass-light.png" width="56" alt="Gin">
   </picture>
 </p>
 
@@ -84,31 +84,31 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/docker-glass-dark.png">
-    <img src="assets/skills/docker-glass-light.png" width="112" alt="Docker">
+    <img src="assets/skills/docker-glass-light.png" width="56" alt="Docker">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/nginx-glass-dark.png">
-    <img src="assets/skills/nginx-glass-light.png" width="112" alt="Nginx">
+    <img src="assets/skills/nginx-glass-light.png" width="56" alt="Nginx">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-ec2-glass-dark.png">
-    <img src="assets/skills/aws-ec2-glass-light.png" width="112" alt="AWS EC2">
+    <img src="assets/skills/aws-ec2-glass-light.png" width="56" alt="AWS EC2">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-s3-glass-dark.png">
-    <img src="assets/skills/aws-s3-glass-light.png" width="112" alt="AWS S3">
+    <img src="assets/skills/aws-s3-glass-light.png" width="56" alt="AWS S3">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-ses-glass-dark.png">
-    <img src="assets/skills/aws-ses-glass-light.png" width="112" alt="AWS SES">
+    <img src="assets/skills/aws-ses-glass-light.png" width="56" alt="AWS SES">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/cloudflare-glass-dark.png">
-    <img src="assets/skills/cloudflare-glass-light.png" width="112" alt="Cloudflare">
+    <img src="assets/skills/cloudflare-glass-light.png" width="56" alt="Cloudflare">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/grafana-glass-dark.png">
-    <img src="assets/skills/grafana-glass-light.png" width="112" alt="Grafana">
+    <img src="assets/skills/grafana-glass-light.png" width="56" alt="Grafana">
   </picture>
 </p>
 
@@ -117,23 +117,23 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/postgresql-glass-dark.png">
-    <img src="assets/skills/postgresql-glass-light.png" width="112" alt="PostgreSQL">
+    <img src="assets/skills/postgresql-glass-light.png" width="56" alt="PostgreSQL">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/mysql-glass-dark.png">
-    <img src="assets/skills/mysql-glass-light.png" width="112" alt="MySQL">
+    <img src="assets/skills/mysql-glass-light.png" width="56" alt="MySQL">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/sqlite-glass-dark.png">
-    <img src="assets/skills/sqlite-glass-light.png" width="112" alt="SQLite">
+    <img src="assets/skills/sqlite-glass-light.png" width="56" alt="SQLite">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/redis-glass-dark.png">
-    <img src="assets/skills/redis-glass-light.png" width="112" alt="Redis">
+    <img src="assets/skills/redis-glass-light.png" width="56" alt="Redis">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/flyway-glass-dark.png">
-    <img src="assets/skills/flyway-glass-light.png" width="112" alt="Flyway">
+    <img src="assets/skills/flyway-glass-light.png" width="56" alt="Flyway">
   </picture>
 </p>
 
@@ -142,15 +142,15 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/websocket-glass-dark.png">
-    <img src="assets/skills/websocket-glass-light.png" width="112" alt="WebSocket">
+    <img src="assets/skills/websocket-glass-light.png" width="56" alt="WebSocket">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/grpc-glass-dark.png">
-    <img src="assets/skills/grpc-glass-light.png" width="112" alt="gRPC">
+    <img src="assets/skills/grpc-glass-light.png" width="56" alt="gRPC">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/http-sse-glass-dark.png">
-    <img src="assets/skills/http-sse-glass-light.png" width="112" alt="HTTP / SSE">
+    <img src="assets/skills/http-sse-glass-light.png" width="56" alt="HTTP / SSE">
   </picture>
 </p>
 
@@ -159,6 +159,6 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/figma-glass-dark.png">
-    <img src="assets/skills/figma-glass-light.png" width="112" alt="Figma">
+    <img src="assets/skills/figma-glass-light.png" width="56" alt="Figma">
   </picture>
 </p>
