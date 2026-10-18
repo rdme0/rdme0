@@ -16,53 +16,149 @@
 </a>
 
 ## 🛠️ Skills
+<!-- Glass icons: scripts/render_skills.py -->
 
-### 언어
+### Languages
 
-**개발 경험**
+**Hands-on Experience**
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Golang](https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/kotlin-glass-dark.png">
+    <img src="assets/skills/kotlin-glass-light.png" width="112" alt="Kotlin">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/java-glass-dark.png">
+    <img src="assets/skills/java-glass-light.png" width="112" alt="Java">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/go-glass-dark.png">
+    <img src="assets/skills/go-glass-light.png" width="112" alt="Golang">
+  </picture>
+</p>
 
-**기초**
+**Basic Knowledge**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/python-glass-dark.png">
+    <img src="assets/skills/python-glass-light.png" width="112" alt="Python">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/cplusplus-glass-dark.png">
+    <img src="assets/skills/cplusplus-glass-light.png" width="112" alt="C++">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/javascript-glass-dark.png">
+    <img src="assets/skills/javascript-glass-light.png" width="112" alt="JavaScript">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/typescript-glass-dark.png">
+    <img src="assets/skills/typescript-glass-light.png" width="112" alt="TypeScript">
+  </picture>
+</p>
 
-### 프레임워크 / 라이브러리
+### Frameworks & Libraries
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge)
-![Kotlin Coroutines](https://img.shields.io/badge/Kotlin%20Coroutines-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Gin](https://img.shields.io/badge/Gin-008ECF?style=for-the-badge&logo=gin&logoColor=white)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/springboot-glass-dark.png">
+    <img src="assets/skills/springboot-glass-light.png" width="112" alt="Spring Boot">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/jpa-glass-dark.png">
+    <img src="assets/skills/jpa-glass-light.png" width="112" alt="JPA">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/coroutines-glass-dark.png">
+    <img src="assets/skills/coroutines-glass-light.png" width="112" alt="Kotlin Coroutines">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/gin-glass-dark.png">
+    <img src="assets/skills/gin-glass-light.png" width="112" alt="Gin">
+  </picture>
+</p>
 
-### 인프라
+### Infrastructure
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge)
-![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge)
-![AWS SES](https://img.shields.io/badge/AWS%20SES-DD344C?style=for-the-badge)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/docker-glass-dark.png">
+    <img src="assets/skills/docker-glass-light.png" width="112" alt="Docker">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/nginx-glass-dark.png">
+    <img src="assets/skills/nginx-glass-light.png" width="112" alt="Nginx">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-ec2-glass-dark.png">
+    <img src="assets/skills/aws-ec2-glass-light.png" width="112" alt="AWS EC2">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-s3-glass-dark.png">
+    <img src="assets/skills/aws-s3-glass-light.png" width="112" alt="AWS S3">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/aws-ses-glass-dark.png">
+    <img src="assets/skills/aws-ses-glass-light.png" width="112" alt="AWS SES">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/cloudflare-glass-dark.png">
+    <img src="assets/skills/cloudflare-glass-light.png" width="112" alt="Cloudflare">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/grafana-glass-dark.png">
+    <img src="assets/skills/grafana-glass-light.png" width="112" alt="Grafana">
+  </picture>
+</p>
 
-### 데이터베이스
+### Databases
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=for-the-badge&logo=redis&logoColor=white)
-![Flyway](https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/postgresql-glass-dark.png">
+    <img src="assets/skills/postgresql-glass-light.png" width="112" alt="PostgreSQL">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/mysql-glass-dark.png">
+    <img src="assets/skills/mysql-glass-light.png" width="112" alt="MySQL">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/sqlite-glass-dark.png">
+    <img src="assets/skills/sqlite-glass-light.png" width="112" alt="SQLite">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/redis-glass-dark.png">
+    <img src="assets/skills/redis-glass-light.png" width="112" alt="Redis">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/flyway-glass-dark.png">
+    <img src="assets/skills/flyway-glass-light.png" width="112" alt="Flyway">
+  </picture>
+</p>
 
-### 통신
+### Communication Protocols
 
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
-![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=for-the-badge)
-![HTTP/SSE](https://img.shields.io/badge/HTTP%2FSSE-005571?style=for-the-badge)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/websocket-glass-dark.png">
+    <img src="assets/skills/websocket-glass-light.png" width="112" alt="WebSocket">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/grpc-glass-dark.png">
+    <img src="assets/skills/grpc-glass-light.png" width="112" alt="gRPC">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/http-sse-glass-dark.png">
+    <img src="assets/skills/http-sse-glass-light.png" width="112" alt="HTTP / SSE">
+  </picture>
+</p>
 
-### 디자인
+### Design
 
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills/figma-glass-dark.png">
+    <img src="assets/skills/figma-glass-light.png" width="112" alt="Figma">
+  </picture>
+</p>

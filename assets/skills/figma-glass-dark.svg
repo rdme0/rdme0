@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="156" viewBox="0 0 128 156" fill="none" role="img" aria-labelledby="title">
+<title id="title">Figma</title>
+<defs>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="mark" viewBox="0 0 24 24"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z" fill="inherit" /></symbol>
+  <linearGradient id="surface" x1="20" y1="10" x2="100" y2="111" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ffffff" stop-opacity=".21"/>
+    <stop offset=".42" stop-color="#ffffff" stop-opacity=".055"/>
+    <stop offset="1" stop-color="#ec99cf" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="22" y1="12" x2="99" y2="110" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white" stop-opacity=".82"/>
+    <stop offset=".30" stop-color="white" stop-opacity=".14"/>
+    <stop offset=".64" stop-color="#ec99cf" stop-opacity=".12"/>
+    <stop offset="1" stop-color="white" stop-opacity=".6"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="#fbe9f4"/>
+    <stop offset=".38" stop-color="#efabd8" stop-opacity=".95"/>
+    <stop offset=".70" stop-color="#ec99cf" stop-opacity=".83"/>
+    <stop offset="1" stop-color="#f7d2ea"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="white" stop-opacity=".73"/><stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".8" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="halo" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#ec99cf" flood-opacity=".18"/></filter>
+  <filter id="depth" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#ec99cf" flood-opacity=".36"/></filter>
+  <clipPath id="squircle"><rect x="14" y="10" width="100" height="100" rx="27"/></clipPath>
+</defs>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" fill="url(#surface)" filter="url(#shadow)"/>
+<g clip-path="url(#squircle)">
+  <ellipse cx="44" cy="83" rx="28" ry="20" fill="#ec99cf" fill-opacity=".30" filter="url(#halo)"/>
+  <ellipse cx="99" cy="19" rx="29" ry="17" fill="white" fill-opacity=".15" filter="url(#halo)"/>
+  <path d="M13 46C42 21 76 44 115 20V10H14Z" fill="white" fill-opacity=".035"/>
+</g>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" stroke="url(#rim)" stroke-width="1.15"/>
+<rect x="16.8" y="12.8" width="94.4" height="94.4" rx="25" stroke="white" stroke-opacity=".06" stroke-width=".6"/>
+<path d="M25 30C27 22 32 19 40 18" stroke="white" stroke-opacity=".65" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M89 103C97 102 104 97 107 88" stroke="#f7d6ec" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+<g filter="url(#depth)">
+  <use href="#mark" x="34" y="31" width="60" height="60" fill="#ec99cf" opacity=".43" transform="translate(0 1.7)"/>
+  <use href="#mark" x="34" y="29" width="60" height="60" fill="url(#logo)"/>
+  <use href="#mark" x="34" y="28.5" width="60" height="60" fill="url(#sheen)"/>
+</g>
+
+<text x="64" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="500" fill="#e4eaf3">Figma</text>
+</svg>

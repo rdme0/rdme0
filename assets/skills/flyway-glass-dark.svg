@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="156" viewBox="0 0 128 156" fill="none" role="img" aria-labelledby="title">
+<title id="title">Flyway</title>
+<defs>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="mark" viewBox="0 0 24 24"><path d="m3.02 21.055 1.12-.23c1.054-.219 2.114-.415 3.161-.66a4.955 4.952 0 0 0 3.696-3.915 6.06 6.057 0 0 0 .085-1.153l.366-.09a4.936 4.933 0 0 0 3.75-3.717 3.8 3.798 0 0 0 .128-1.06c-.002-.096 0-.193 0-.305.094-.023.18-.047.267-.067a4.552 4.549 0 0 0 2.68-1.755 5.772 5.769 0 0 0 1.005-4.854c-.021-.088-.035-.179-.061-.264a.63.629 0 0 0-.728-.432l-3.184.652-3.485.716-4.002.822q-2.186.449-4.373.893a1.125 1.125 0 0 1-.422.06c-.007-.074-.017-.14-.017-.204-.001-1.12.002-2.243-.005-3.364a.324.324 0 0 1 .174-.307 8.493 8.488 0 0 1 1.9-.86A17.205 17.194 0 0 1 7.827.315C8.373.23 8.922.181 9.47.12a26.795 26.777 0 0 1 3.526-.102c.496.01.992.051 1.487.097.542.051 1.085.11 1.623.192a14.482 14.472 0 0 1 4.007 1.124c.262.123.509.28.764.422a.215.215 0 0 1 .122.223c-.004.054 0 .11 0 .163v19.519c0 .347.045.28-.262.472a8.437 8.432 0 0 1-1.961.857 16.78 16.769 0 0 1-2.851.63c-.6.08-1.2.146-1.804.207-.277.03-.556.035-.835.043-.564.015-1.128.041-1.691.03-.636-.014-1.272-.059-1.907-.099a20.054 20.041 0 0 1-2.519-.332 13.423 13.415 0 0 1-3.224-.976c-.273-.13-.53-.29-.797-.435a.246.246 0 0 1-.144-.248c.008-.23 0-.46.003-.69 0-.049.01-.096.016-.163zm9.985-10.652a1.248 1.248 0 0 1-.09.55 2.624 2.622 0 0 1-2.045 1.84c-1.3.28-2.607.537-3.912.805l-.57.114a1.147 1.146 0 1 0 .403 2.256c.595-.11 1.186-.242 1.779-.363.064-.014.128-.022.209-.035a2.584 2.582 0 0 1-.55 1.41A2.801 2.8 0 0 1 6.516 18c-1.103.223-2.206.45-3.308.676-.052.01-.106.013-.156.02-.048-.146-.061-10.38-.014-10.63l14.048-2.883a1.523 1.522 0 0 1-.016.18 3.438 3.436 0 0 1-.738 1.502 2.399 2.397 0 0 1-1.426.804c-1.11.216-2.218.45-3.326.677l-.96.196a1.168 1.168 0 0 0-.953 1.057 1.147 1.147 0 0 0 .875 1.186 1.747 1.746 0 0 0 .807-.054c.492-.1.983-.203 1.475-.304.053-.01.108-.014.18-.023z" fill="inherit" /></symbol>
+  <linearGradient id="surface" x1="20" y1="10" x2="100" y2="111" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ffffff" stop-opacity=".21"/>
+    <stop offset=".42" stop-color="#ffffff" stop-opacity=".055"/>
+    <stop offset="1" stop-color="#eb8d91" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="22" y1="12" x2="99" y2="110" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white" stop-opacity=".82"/>
+    <stop offset=".30" stop-color="white" stop-opacity=".14"/>
+    <stop offset=".64" stop-color="#eb8d91" stop-opacity=".12"/>
+    <stop offset="1" stop-color="white" stop-opacity=".6"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="#fbe6e7"/>
+    <stop offset=".38" stop-color="#efa2a5" stop-opacity=".95"/>
+    <stop offset=".70" stop-color="#eb8d91" stop-opacity=".83"/>
+    <stop offset="1" stop-color="#f6cdcf"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="white" stop-opacity=".73"/><stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".8" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="halo" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#eb8d91" flood-opacity=".18"/></filter>
+  <filter id="depth" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#eb8d91" flood-opacity=".36"/></filter>
+  <clipPath id="squircle"><rect x="14" y="10" width="100" height="100" rx="27"/></clipPath>
+</defs>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" fill="url(#surface)" filter="url(#shadow)"/>
+<g clip-path="url(#squircle)">
+  <ellipse cx="44" cy="83" rx="28" ry="20" fill="#eb8d91" fill-opacity=".30" filter="url(#halo)"/>
+  <ellipse cx="99" cy="19" rx="29" ry="17" fill="white" fill-opacity=".15" filter="url(#halo)"/>
+  <path d="M13 46C42 21 76 44 115 20V10H14Z" fill="white" fill-opacity=".035"/>
+</g>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" stroke="url(#rim)" stroke-width="1.15"/>
+<rect x="16.8" y="12.8" width="94.4" height="94.4" rx="25" stroke="white" stroke-opacity=".06" stroke-width=".6"/>
+<path d="M25 30C27 22 32 19 40 18" stroke="white" stroke-opacity=".65" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M89 103C97 102 104 97 107 88" stroke="#f7d1d3" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+<g filter="url(#depth)">
+  <use href="#mark" x="34" y="31" width="60" height="60" fill="#eb8d91" opacity=".43" transform="translate(0 1.7)"/>
+  <use href="#mark" x="34" y="29" width="60" height="60" fill="url(#logo)"/>
+  <use href="#mark" x="34" y="28.5" width="60" height="60" fill="url(#sheen)"/>
+</g>
+
+<text x="64" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="500" fill="#e4eaf3">Flyway</text>
+</svg>

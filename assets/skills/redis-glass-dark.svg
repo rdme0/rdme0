@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="156" viewBox="0 0 128 156" fill="none" role="img" aria-labelledby="title">
+<title id="title">Redis</title>
+<defs>
+  <symbol xmlns="http://www.w3.org/2000/svg" id="mark" viewBox="0 0 24 24"><path d="M22.71 13.145c-1.66 2.092-3.452 4.483-7.038 4.483-3.203 0-4.397-2.825-4.48-5.12.701 1.484 2.073 2.685 4.214 2.63 4.117-.133 6.94-3.852 6.94-7.239 0-4.05-3.022-6.972-8.268-6.972-3.752 0-8.4 1.428-11.455 3.685C2.59 6.937 3.885 9.958 4.35 9.626c2.648-1.904 4.748-3.13 6.784-3.744C8.12 9.244.886 17.05 0 18.425c.1 1.261 1.66 4.648 2.424 4.648.232 0 .431-.133.664-.365a100.49 100.49 0 0 0 5.54-6.765c.222 3.104 1.748 6.898 6.014 6.898 3.819 0 7.604-2.756 9.33-8.965.2-.764-.73-1.361-1.261-.73zm-4.349-5.013c0 1.959-1.926 2.922-3.685 2.922-.941 0-1.664-.247-2.235-.568 1.051-1.592 2.092-3.225 3.21-4.973 1.972.334 2.71 1.43 2.71 2.619z" fill="inherit" /></symbol>
+  <linearGradient id="surface" x1="20" y1="10" x2="100" y2="111" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#ffffff" stop-opacity=".21"/>
+    <stop offset=".42" stop-color="#ffffff" stop-opacity=".055"/>
+    <stop offset="1" stop-color="#ff8b90" stop-opacity=".12"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="22" y1="12" x2="99" y2="110" gradientUnits="userSpaceOnUse">
+    <stop stop-color="white" stop-opacity=".82"/>
+    <stop offset=".30" stop-color="white" stop-opacity=".14"/>
+    <stop offset=".64" stop-color="#ff8b90" stop-opacity=".12"/>
+    <stop offset="1" stop-color="white" stop-opacity=".6"/>
+  </linearGradient>
+  <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="#ffe5e7"/>
+    <stop offset=".38" stop-color="#ffa0a4" stop-opacity=".95"/>
+    <stop offset=".70" stop-color="#ff8b90" stop-opacity=".83"/>
+    <stop offset="1" stop-color="#ffccce"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+    <stop stop-color="white" stop-opacity=".73"/><stop offset=".4" stop-color="white" stop-opacity="0"/><stop offset=".8" stop-color="white" stop-opacity="0"/><stop offset="1" stop-color="white" stop-opacity=".18"/>
+  </linearGradient>
+  <filter id="halo" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="shadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#ff8b90" flood-opacity=".18"/></filter>
+  <filter id="depth" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#ff8b90" flood-opacity=".36"/></filter>
+  <clipPath id="squircle"><rect x="14" y="10" width="100" height="100" rx="27"/></clipPath>
+</defs>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" fill="url(#surface)" filter="url(#shadow)"/>
+<g clip-path="url(#squircle)">
+  <ellipse cx="44" cy="83" rx="28" ry="20" fill="#ff8b90" fill-opacity=".30" filter="url(#halo)"/>
+  <ellipse cx="99" cy="19" rx="29" ry="17" fill="white" fill-opacity=".15" filter="url(#halo)"/>
+  <path d="M13 46C42 21 76 44 115 20V10H14Z" fill="white" fill-opacity=".035"/>
+</g>
+<rect x="14.5" y="10.5" width="99" height="99" rx="27" stroke="url(#rim)" stroke-width="1.15"/>
+<rect x="16.8" y="12.8" width="94.4" height="94.4" rx="25" stroke="white" stroke-opacity=".06" stroke-width=".6"/>
+<path d="M25 30C27 22 32 19 40 18" stroke="white" stroke-opacity=".65" stroke-width="1.3" stroke-linecap="round"/>
+<path d="M89 103C97 102 104 97 107 88" stroke="#ffd1d3" stroke-opacity=".45" stroke-width="1.2" stroke-linecap="round"/>
+<g filter="url(#depth)">
+  <use href="#mark" x="34" y="31" width="60" height="60" fill="#ff8b90" opacity=".43" transform="translate(0 1.7)"/>
+  <use href="#mark" x="34" y="29" width="60" height="60" fill="url(#logo)"/>
+  <use href="#mark" x="34" y="28.5" width="60" height="60" fill="url(#sheen)"/>
+</g>
+
+<text x="64" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="500" fill="#e4eaf3">Redis</text>
+</svg>
