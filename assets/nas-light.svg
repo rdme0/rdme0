@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="424" viewBox="0 0 800 424" fill="none" role="img" aria-labelledby="title description">
+<title id="title">NAS</title>
+<desc id="description">Processor: Intel Core i7-4770; Memory: 16 GB DDR3 · 8 GB × 2; SSD: SK Hynix Gold P31 512 GB; HDD: Toshiba P300 2 TB; Motherboard: ASRock B85M Pro4; Cooling: DeepCool GAMMAX GTE (White); Power supply: Micronics Classic II 700W</desc>
+<rect x="0.5" y="0.5" width="799" height="423" rx="20" fill="#ffffff" stroke="#d1d9e0"/>
+<path d="M28 34V64" stroke="#7355b4" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="44" y="39" fill="#59636e" font-size="11" font-weight="600" letter-spacing="2">NETWORK ATTACHED STORAGE</text>
+<text x="43" y="69" fill="#1f2328" font-size="27" font-weight="700">NAS</text>
+<g stroke="#7355b4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="728" y="28" width="32" height="18" rx="4"/><rect x="728" y="50" width="32" height="18" rx="4"/><path d="M735 37h.01m0 22h.01M745 37h8m-8 22h8"/></g>
+<g id="components"><rect x="24" y="96" width="752" height="304" rx="12" fill="#f6f8fa"/>
+<text x="42" y="134" font-size="12" fill="#59636e">Processor</text>
+<text x="180" y="134" font-size="14" fill="#1f2328">Intel Core i7-4770</text>
+<path d="M42 149H758" stroke="#d1d9e0" stroke-opacity="0.5"/>
+<text x="42" y="174" font-size="12" fill="#59636e">Memory</text>
+<text x="180" y="174" font-size="14" fill="#1f2328">16 GB DDR3 · 8 GB × 2</text>
+<path d="M42 189H758" stroke="#d1d9e0" stroke-opacity="0.5"/>
+<text x="42" y="214" font-size="12" fill="#59636e">SSD</text>
+<text x="180" y="214" font-size="14" fill="#1f2328">SK Hynix Gold P31 512 GB</text>
+<path d="M42 229H758" stroke="#d1d9e0" stroke-opacity="0.5"/>
+<text x="42" y="254" font-size="12" fill="#59636e">HDD</text>
+<text x="180" y="254" font-size="14" fill="#1f2328">Toshiba P300 2 TB</text>
+<path d="M42 269H758" stroke="#d1d9e0" stroke-opacity="0.5"/>
+<text x="42" y="294" font-size="12" fill="#59636e">Motherboard</text>
+<text x="180" y="294" font-size="14" fill="#1f2328">ASRock B85M Pro4</text>
+<path d="M42 309H758" stroke="#d1d9e0" stroke-opacity="0.5"/>
+<text x="42" y="334" font-size="12" fill="#59636e">Cooling</text>
+<text x="180" y="334" font-size="14" fill="#1f2328">DeepCool GAMMAX GTE (White)</text>
+<path d="M42 349H758" stroke="#d1d9e0" stroke-opacity="0.5"/>
+<text x="42" y="374" font-size="12" fill="#59636e">Power supply</text>
+<text x="180" y="374" font-size="14" fill="#1f2328">Micronics Classic II 700W</text>
+</g></g></svg>
