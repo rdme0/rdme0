@@ -123,10 +123,12 @@ def icon(skill, theme):
     plate = "#ffffff" if dark else "#dce5f2"
     mark = symbol(source)
     lines = ["Kotlin", "Coroutines"] if slug == "coroutines" else [caption]
-    labels = "".join(f'<text x="64" y="{132+i*15}" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="500" fill="{ink}">{escape(line)}</text>' for i, line in enumerate(lines))
+    # 84/192 == 56/128: the artwork stays at its previous displayed size.
+    # A wider caption canvas restores readable 11.4px names independently.
+    labels = "".join(f'<text x="96" y="{140+i*28}" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="500" fill="{ink}">{escape(line)}</text>' for i, line in enumerate(lines))
     extra = ('<ellipse cx="64" cy="59" rx="31" ry="12" transform="rotate(-28 64 59)" stroke="url(#rim)" stroke-width="1.3"/>'
              if slug == "coroutines" else "")
-    return f'''<svg xmlns="{NS}" width="128" height="156" viewBox="0 0 128 156" fill="none" role="img" aria-labelledby="title">
+    return f'''<svg xmlns="{NS}" width="192" height="182" viewBox="0 0 192 182" fill="none" role="img" aria-labelledby="title">
 <title id="title">{escape(caption)}</title>
 <defs>
   {mark}
@@ -155,6 +157,7 @@ def icon(skill, theme):
   <filter id="depth" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="{tint}" flood-opacity=".36"/></filter>
   <clipPath id="squircle"><rect x="14" y="10" width="100" height="100" rx="27"/></clipPath>
 </defs>
+<g transform="translate(32 0)">
 <rect x="14.5" y="10.5" width="99" height="99" rx="27" fill="url(#surface)" filter="url(#shadow)"/>
 <g clip-path="url(#squircle)">
   <ellipse cx="44" cy="83" rx="28" ry="20" fill="{tint}" fill-opacity="{'.30' if dark else '.16'}" filter="url(#halo)"/>
@@ -171,6 +174,7 @@ def icon(skill, theme):
   <use href="#mark" x="34" y="28.5" width="60" height="60" fill="url(#sheen)"/>
 </g>
 {extra}
+</g>
 {labels}
 </svg>\n'''
 
@@ -183,7 +187,7 @@ def skills_markdown():
         for slug in slugs:
             result.append(f'''  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/skills/{slug}-glass-dark.png">
-    <img src="assets/skills/{slug}-glass-light.png" width="56" alt="{escape(by_slug[slug])}">
+    <img src="assets/skills/{slug}-glass-light.png" width="84" alt="{escape(by_slug[slug])}">
   </picture>''')
         result.append("</p>")
     return "\n".join(result) + "\n"
@@ -200,7 +204,7 @@ def main():
         fetch_sources()
     with sync_playwright() as p:
         browser = p.chromium.launch(channel=args.browser_channel, headless=True)
-        page = browser.new_page(viewport={"width": 128, "height": 156}, device_scale_factor=3)
+        page = browser.new_page(viewport={"width": 192, "height": 182}, device_scale_factor=3)
         for skill in SKILLS:
             for theme in ("dark", "light"):
                 source = icon(skill, theme)
@@ -209,6 +213,10 @@ def main():
                 path.write_text(source, encoding="utf-8")
                 page.set_content('<style>body{margin:0;background:transparent}</style>' + source)
                 assert page.locator('symbol > *').count() > 0, skill[0]
+                clipped = page.locator('svg > text').evaluate_all('''nodes => nodes.filter(node => {
+                    const b = node.getBBox(); return b.x < 0 || b.x + b.width > 192 || b.y + b.height > 182;
+                }).map(node => node.textContent)''')
+                assert not clipped, (skill[0], clipped)
                 page.locator("svg").first.screenshot(path=str(path.with_suffix(".png")), omit_background=True)
         browser.close()
     if args.write_readme:

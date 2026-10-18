@@ -4,6 +4,9 @@ These are custom, static glass-style treatments of the profile's technology
 marks. Each transparent PNG contains a glass tile and its caption. Separate
 light and dark variants are selected with the README's `picture` elements.
 
+The caption canvas is wider than the artwork. At the README's 84px image width,
+the glass tile stays 43.75px wide while its name renders at about 11.4px.
+
 Regenerate from the saved sources:
 
 ```sh
