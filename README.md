@@ -1,20 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/dev-pc-list-dark.png">
-  <img src="assets/dev-pc-list-light.png" width="800" alt="Dev PC 사진 및 사양 — Ryzen 5 5600 · Radeon RX 6800 XT · 32 GB DDR4 · Samsung NVMe 512 GB + 1 TB">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/nas-list-dark.png">
-  <img src="assets/nas-list-light.png" width="800" alt="NAS — Intel Core i7-4770 · 16 GB DDR3 · SK Hynix Gold P31 512 GB · Toshiba P300 2 TB">
-</picture>
-
-<a href="https://metrics.lecoq.io/insights?user=rdme0">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.png">
-    <img src="assets/github-metrics-light.png" width="800" alt="rdme0의 GitHub Metrics — 지난 1년 입체 기여 그래프, 언어 비율, PR 및 이슈 통계">
-  </picture>
-</a>
-
 ## 🛠️ Skills
 <!-- Glass icons: scripts/render_skills.py -->
 
@@ -162,3 +145,22 @@
     <img src="assets/skills/figma-glass-light.png" width="84" alt="Figma">
   </picture>
 </p>
+
+<a href="https://metrics.lecoq.io/insights?user=rdme0">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-metrics-dark.png">
+    <img src="assets/github-metrics-light.png" width="800" alt="rdme0의 GitHub Metrics — 지난 1년 입체 기여 그래프, 언어 비율, PR 및 이슈 통계">
+  </picture>
+</a>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/dev-pc-list-dark.png">
+  <img src="assets/dev-pc-list-light.png" width="800" alt="Dev PC 사진 및 사양 — Ryzen 5 5600 · Radeon RX 6800 XT · 32 GB DDR4 · Samsung NVMe 512 GB + 1 TB">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/nas-list-dark.png">
+  <img src="assets/nas-list-light.png" width="800" alt="NAS — Intel Core i7-4770 · 16 GB DDR3 · SK Hynix Gold P31 512 GB · Toshiba P300 2 TB">
+</picture>
+
+
